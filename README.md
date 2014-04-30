@@ -56,3 +56,5 @@ background.  From here, the user is able to delete or edit the item. To delete t
 simply click the delete icon, which is located in the upper right corner of each library item.  Clicking 
 the cover art allows the user to view (read) detailed information and update the information associated 
 with the item.
+
+See https://github.com/jdstone/php_library_app/blob/master/Product_Documentation.pdf for more info.
