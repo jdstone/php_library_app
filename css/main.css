@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background: #42413C;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+.selected {
+	padding: 5px 5px 5px 15px;
+	display: block;
+	width: 160px;
+	text-decoration: none;
+	background-color: #69C;
+	color: #FFF;
+}
+ul, ol {
+	margin: 0px;
+	padding: 0px;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.container {
+	width: 1024px;
+	background: #FFFFFF;
+	margin: 0 auto;
+}
+.container .sidebar1 h4 {
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color: #5E6E80;
+	text-transform: uppercase;
+}
+.content {
+	padding: 10px 0;
+	width: 844px;
+	float: left;
+	height: 100%;
+}
+aside {
+	float: left;
+	width: 180px;
+	background: #EADCAE;
+	padding: 10px 0;
+}
+section {
+	height: 100%;
+}
+nav ul {
+	list-style-type: none;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #666;
+	margin-bottom: 15px;
+}
+nav ul li {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #666;
+}
+nav ul a, nav ul a:visited {
+	padding: 5px 5px 5px 15px;
+	display: block;
+	width: 160px;
+	text-decoration: none;
+	color: #000;
+	background-color: #ABBEDC;
+}
+nav ul a:hover {
+	background-color: #69C;
+	color: #FFF;
+}
+header, section, footer, aside, nav, article, figure {
+	display: block;
+}
+.clearfloat {
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
